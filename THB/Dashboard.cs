@@ -51,7 +51,7 @@ namespace THB
 
                 con.Open();
 
-                string sql = "SELECT Product_ID AS ID,Product_Name AS Name,Product_Price AS Product ,Product_Type AS Type FROM PRODUCTS";
+                string sql = "SELECT Product_ID AS ID,Product_Name AS Name,Product_Price AS Price ,Product_Type AS Type FROM PRODUCTS";
 
                 SqlCommand cmd = new SqlCommand(sql, con);
 

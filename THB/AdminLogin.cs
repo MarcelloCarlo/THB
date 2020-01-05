@@ -22,6 +22,7 @@ namespace THB
             Thread.Sleep(5000);
             InitializeComponent();
             spl.Abort();
+            this.Show();
         }
 
         static string Encryptor(string value)
@@ -40,7 +41,7 @@ namespace THB
 
         private void AdminLogin_Load(object sender, EventArgs e)
         {
-           
+            this.Show();
         }
 
         private void LoginButton_Click(object sender, EventArgs e)

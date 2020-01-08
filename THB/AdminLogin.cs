@@ -12,7 +12,6 @@ namespace THB
     public partial class AdminLogin : MetroFramework.Forms.MetroForm
     {
         String SqlInit = "Data Source=SELENE-GAGA\\FRUITYSQLEXP19;Initial Catalog=THB;Integrated Security=True ";
-
        
         public AdminLogin()
         {   
@@ -22,7 +21,6 @@ namespace THB
             Thread.Sleep(5000);
             InitializeComponent();
             spl.Abort();
-            this.Show();
         }
 
         static string Encryptor(string value)

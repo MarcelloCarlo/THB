@@ -26,22 +26,10 @@ namespace THB.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source = DESKTOP-5DGKR00\\NIKKIESTELEYDES; Initial Catalog=THB; Pooling=false" +
-            ";Integrated Security=True;")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=SELENE-GAGA\\FRUITYSQLEXP19;Initial Catalog=THB;Integrated Security=True")]
         public string SqlConnect {
             get {
                 return ((string)(this["SqlConnect"]));
-            }
-        }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=SELENE-GAGA\\FRUITYSQLEXP19;Initial Catalog=THB;Integrated Security=Tr" +
-            "ue")]
-        public string THBConnectionString {
-            get {
-                return ((string)(this["THBConnectionString"]));
             }
         }
     }
